@@ -5,6 +5,15 @@ import Logo2 from "../../public/img/logo2.png"
 import { CiHome, CiUser, CiPhone } from "react-icons/ci";
 import { FaBorderAll, FaBorderNone } from "react-icons/fa6";
 import Link from 'next/link';
+import { FaBars } from "react-icons/fa6";
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet"
 
 function Navbar() {
       const [showNavbar, setShowNavbar] = useState<boolean>(false);
@@ -30,7 +39,7 @@ function Navbar() {
                   <Image src={Logo2} alt="logo" width={120} height={40} className="w-[220px] h-auto" />
             </div>
             {/* deskripsi */}
-            <div className='text-md font-semi-bold flex items-center justify-end space-x-3'>
+            <div className='hidden lg:flex text-md font-semi-bold items-center justify-end space-x-3'>
                 <Link href={"#home"} className='flex items-center justify-start space-x-2'>
                   <CiHome className='h-5 w-5' />
                   <h1>home</h1>  
@@ -48,6 +57,38 @@ function Navbar() {
                   <h1>contact</h1>  
                 </Link> 
             </div>
+            {/* deskripsi sm */}
+                <div className='inline-flex lg:hidden'>
+                  <Sheet>
+                          <SheetTrigger>
+                            <FaBars className='h-5 w-5' />
+                          </SheetTrigger>
+                          <SheetContent>
+                            <SheetHeader>
+                              <SheetDescription>
+                              <div className='flex text-lg flex-col text-md font-semi-bold items-start justify-start space-y-8 mt-[100px]'>
+                                  <Link href={"#home"} className='flex items-center justify-start space-x-2'>
+                                    <CiHome className='h-5 w-5' />
+                                    <h1>home</h1>  
+                                  </Link> 
+                                  <Link href={"#profile"} className='flex items-center justify-start space-x-2'>
+                                    <CiUser className='h-5 w-5' />
+                                    <h1>profile</h1>  
+                                  </Link> 
+                                  <Link href={"#projects"} className='flex items-center justify-start space-x-2'>
+                                    <FaBorderNone className='h-5 w-5' />
+                                    <h1>projects</h1>  
+                                  </Link> 
+                                  <Link href={"#contact"} className='flex items-center justify-start space-x-2'>
+                                    <CiPhone className='h-5 w-5' />
+                                    <h1>contact</h1>  
+                                  </Link> 
+                              </div>
+                              </SheetDescription>
+                            </SheetHeader>
+                          </SheetContent>
+                  </Sheet>
+                </div>
       </div>
     </div>
   )

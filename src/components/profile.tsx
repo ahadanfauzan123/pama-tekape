@@ -3,7 +3,7 @@ import AnimatedCounter from './animatedCounter'
 
 function Profile() {
   return (
-      <div id='profile' className="w-full flex py-[60px] flex-col ">
+      <div id="profile" className="w-full flex py-[60px] flex-col ">
       <div className=" w-[80vw] mx-auto min-h-[80vh] lg:h-[80vh] flex flex-col space-y-8 lg:space-y-0 items-center justify-center">
         <div
         className="flex flex-col items-center justify-center space-y-12">

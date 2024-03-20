@@ -1,8 +1,8 @@
 import Banner from "@/components/banner";
 import Navbar from "@/components/navbar";
-import Image from "next/image";
 import Profile from "@/components/profile";
 import Profile2 from "@/components/profile2";
+import Projects from "@/components/projects";
 
 export default function Home() {
   return (
@@ -15,7 +15,8 @@ export default function Home() {
       <Profile />
       {/* profile 2 */}
       <Profile2 />
-      {/* artikel */}
+      {/* projects */}
+      <Projects />
       {/* contact */}
       {/* footer */}
     </main>
