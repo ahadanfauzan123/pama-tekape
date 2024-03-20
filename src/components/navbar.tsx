@@ -36,7 +36,7 @@ function Navbar() {
       <div className='flex items-center justify-between mx-auto w-[90%]'>
             {/* logo */}
             <div className='flex items-center justify-start'>
-                  <Image src={Logo2} alt="logo" width={120} height={40} className="w-[220px] h-auto" />
+                  <Image src={Logo2} alt="logo" width={800} height={200} className="w-[220px] h-auto" />
             </div>
             {/* deskripsi */}
             <div className='hidden lg:flex text-md font-semi-bold items-center justify-end space-x-3'>

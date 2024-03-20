@@ -1,4 +1,6 @@
 import Banner from "@/components/banner";
+import Contact from "@/components/contact";
+import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 import Profile from "@/components/profile";
 import Profile2 from "@/components/profile2";
@@ -18,7 +20,9 @@ export default function Home() {
       {/* projects */}
       <Projects />
       {/* contact */}
+      <Contact />
       {/* footer */}
+      <Footer />
     </main>
   );
 }

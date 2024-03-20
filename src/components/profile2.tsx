@@ -45,7 +45,7 @@ function Profile2() {
       <div className="w-full flex flex-col space-y-8">
       {/* kegiatan pertama */}
       <div className="relative w-[80vw] mx-auto flex flex-col lg:flex-row space-y-8 items-start lg:items-center justify-center lg:justify-between h-[65vh]">
-        <Image alt="svg" src="" width={100} height={100} className="absolute left-[50px] top-[40%]" />
+        {/* <Image alt="svg" src="" width={100} height={100} className="absolute left-[50px] top-[40%]" /> */}
         <motion.h1
         initial="offscreen"
         whileInView="onscreen"
@@ -70,8 +70,8 @@ ini.
       {/* kegiatan kedua */}
       <div className="w-screen bg-red-700">
       <div className="relative flex flex-col lg:flex-row space-y-8 items-end lg:items-center justify-between lg:justify-between w-[80%] mx-auto left-0 p-6 h-[70vh] lg:h-[55vh]">
-      <Image alt="svg" src="" width={100} height={100} className="absolute right-[50px] top-[40%]" />
-        
+      {/* <Image alt="svg" src="" width={100} height={100} className="absolute right-[50px] top-[40%]" />
+         */}
       <motion.h3 
         initial="offscreen"
         whileInView="onscreen"
@@ -95,7 +95,7 @@ mewujudkan visi dan misi bisnis Anda.
       </div>
       </div>
       {/* kegiatan ketiga */}
-      <div className="relative w-[80vw] mx-auto flex flex-col space-y-16 items-center justify-start min-h-screen lg:h-[65vh]">
+      <div className="relative w-[80vw] mx-auto flex flex-col space-y-16 items-center justify-start">
       {/* <Image alt="svg" src="" width={100} height={100} className="absolute left-[50px] top-[40%]" /> */}
         <motion.h1
         initial="offscreen"
@@ -109,7 +109,7 @@ mewujudkan visi dan misi bisnis Anda.
         viewport={{ once: true, amount: 0.8 }}
         variants={titleVariant2}
         className="flex items-center justify-center flex-col space-y-6 lg:space-y-0 lg:flex-row lg:justify-center space-x-2 w-full z-20 text-justify text-lg">
-                      <div className="hover:bg-gray-100 bg-white rounded-lg px-4 py-2 w-full h-[160px] lg:w-[23%] lg:h-[240px] flex items-center justify-center">
+                      <div className="hover:bg-gray-100 bg-white hover:scale-[0.95] transition-all duration-300 ease-in rounded-lg px-4 py-2 w-full h-[160px] lg:w-[23%] lg:h-[240px] flex items-center justify-center">
                         <div className="relative w-full h-full flex items-center justify-center flex-col space-y-2">
                           <h1 className='z-20 text-xl font-bold absolute top-0 w-full h-full flex items-center justify-center'>
                             Kualitas Terbaik
@@ -118,7 +118,7 @@ mewujudkan visi dan misi bisnis Anda.
                           <FaFireAlt className='z-10 h-24 w-24 text-opacity-65 text-red-600'/>
                         </div>
                       </div>
-                      <div className="hover:bg-gray-100 bg-white rounded-lg px-4 py-2 w-full h-[160px] lg:w-[23%] lg:h-[240px] flex items-center justify-center">
+                      <div className="hover:bg-gray-100 bg-white hover:scale-[0.95] transition-all duration-300 ease-in rounded-lg px-4 py-2 w-full h-[160px] lg:w-[23%] lg:h-[240px] flex items-center justify-center">
                         <div className="relative w-full h-full flex items-center justify-center flex-col space-y-2">
                           <h1 className='z-20 text-xl font-bold absolute top-0 w-full h-full flex items-center justify-center'>
                             Inovasi Berkelanjutan
@@ -128,7 +128,7 @@ mewujudkan visi dan misi bisnis Anda.
                           <FaRegLightbulb  className='z-10 h-24 w-24 text-opacity-65 text-yellow-600'/>
                         </div>
                       </div>
-                      <div className="hover:bg-gray-100 bg-white rounded-lg px-4 py-2 w-full h-[160px] lg:w-[23%] lg:h-[240px] flex items-center justify-center">
+                      <div className="hover:bg-gray-100 bg-white hover:scale-[0.95] transition-all duration-300 ease-in rounded-lg px-4 py-2 w-full h-[160px] lg:w-[23%] lg:h-[240px] flex items-center justify-center">
                         <div className="relative w-full h-full flex items-center justify-center flex-col space-y-2">
                           <h1 className='z-20 text-xl font-bold absolute top-0 w-full h-full flex items-center justify-center'>
                             Pelayanan Pelanggan
@@ -138,7 +138,7 @@ mewujudkan visi dan misi bisnis Anda.
                           
                         </div>
                       </div>
-                      <div className="hover:bg-gray-100 bg-white rounded-lg px-4 py-2 w-full h-[160px] lg:w-[23%] lg:h-[240px] flex items-center justify-center">
+                      <div className="hover:bg-gray-100 bg-white hover:scale-[0.95] transition-all duration-300 ease-in rounded-lg px-4 py-2 w-full h-[160px] lg:w-[23%] lg:h-[240px] flex items-center justify-center">
                         <div className="relative w-full h-full flex items-center justify-center flex-col space-y-2">
                           <h1 className='z-20 text-xl font-bold absolute top-0 w-full h-full flex items-center justify-center'>
                             Komitmen Lingkungan
