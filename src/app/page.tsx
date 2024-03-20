@@ -1,6 +1,7 @@
 import Banner from "@/components/banner";
 import Navbar from "../components/navbar";
 import Image from "next/image";
+import Profile from "@/components/profile";
 
 export default function Home() {
   return (
@@ -10,9 +11,7 @@ export default function Home() {
       {/* banner */}
       <Banner />
       {/* deskripsi pt */}
-      <div className="w-screen h-screen">
-
-      </div>
+      <Profile />
       {/* artikel */}
       {/* contact */}
       {/* footer */}

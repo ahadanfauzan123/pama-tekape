@@ -47,7 +47,7 @@ function Banner() {
             </div>
         </SwiperSlide>
       </Swiper>
-      <h1 className='text-4xl text-gray-800 font-bold absolute m-auto z-40 uppercase'>Selamat Datang di PAMA</h1>
+      <h1 className='text-5xl text-gray-800 font-extrabold absolute m-auto z-40 uppercase'>Selamat Datang di PAMA</h1>
     </div>
   )
 }
