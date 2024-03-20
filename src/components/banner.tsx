@@ -13,7 +13,7 @@ import Banner5 from "../../public/img/banner5.png"
 
 function Banner() {
   return (
-    <div className=' z-20 h-screen w-screen relative flex items-center justify-center'>
+    <div id="home" className=' z-20 h-screen w-screen relative flex items-center justify-center'>
       <Swiper
         pagination={{
           dynamicBullets: true,

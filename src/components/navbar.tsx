@@ -2,8 +2,9 @@
 import Image from 'next/image';
 import React, { useEffect, useState } from 'react'
 import Logo2 from "../../public/img/logo2.png"
-import { CiHome, CiUser } from "react-icons/ci";
+import { CiHome, CiUser, CiPhone } from "react-icons/ci";
 import { FaBorderAll, FaBorderNone } from "react-icons/fa6";
+import Link from 'next/link';
 
 function Navbar() {
       const [showNavbar, setShowNavbar] = useState<boolean>(false);
@@ -30,18 +31,22 @@ function Navbar() {
             </div>
             {/* deskripsi */}
             <div className='text-md font-semi-bold flex items-center justify-end space-x-3'>
-                <div className='flex items-center justify-start space-x-2'>
+                <Link href={"#home"} className='flex items-center justify-start space-x-2'>
                   <CiHome className='h-5 w-5' />
                   <h1>home</h1>  
-                </div> 
-                <div className='flex items-center justify-start space-x-2'>
+                </Link> 
+                <Link href={"#profile"} className='flex items-center justify-start space-x-2'>
                   <CiUser className='h-5 w-5' />
                   <h1>profile</h1>  
-                </div> 
-                <div className='flex items-center justify-start space-x-2'>
+                </Link> 
+                <Link href={"#projects"} className='flex items-center justify-start space-x-2'>
                   <FaBorderNone className='h-5 w-5' />
                   <h1>projects</h1>  
-                </div> 
+                </Link> 
+                <Link href={"#contact"} className='flex items-center justify-start space-x-2'>
+                  <CiPhone className='h-5 w-5' />
+                  <h1>contact</h1>  
+                </Link> 
             </div>
       </div>
     </div>
