@@ -40,19 +40,19 @@ function Navbar() {
             </Link>
             {/* deskripsi */}
             <div className='hidden lg:flex text-md font-semi-bold items-center justify-end space-x-3'>
-                <Link href={"#home"} className='flex items-center justify-start space-x-2'>
+                <Link href={"/#home"} className='flex items-center justify-start space-x-2'>
                   <CiHome className='h-5 w-5' />
                   <h1>home</h1>  
                 </Link> 
-                <Link href={"#profile"} className='flex items-center justify-start space-x-2'>
+                <Link href={"/#profile"} className='flex items-center justify-start space-x-2'>
                   <CiUser className='h-5 w-5' />
                   <h1>profile</h1>  
                 </Link> 
-                <Link href={"#projects"} className='flex items-center justify-start space-x-2'>
+                <Link href={"/#projects"} className='flex items-center justify-start space-x-2'>
                   <FaBorderNone className='h-5 w-5' />
                   <h1>projects</h1>  
                 </Link> 
-                <Link href={"#contact"} className='flex items-center justify-start space-x-2'>
+                <Link href={"/#contact"} className='flex items-center justify-start space-x-2'>
                   <CiPhone className='h-5 w-5' />
                   <h1>contact</h1>  
                 </Link> 
@@ -67,19 +67,19 @@ function Navbar() {
                             <SheetHeader>
                               <SheetDescription>
                               <div className='flex text-lg flex-col text-md font-semi-bold items-start justify-start space-y-8 mt-[100px]'>
-                                  <Link href={"#home"} className='flex items-center justify-start space-x-2'>
+                                  <Link href={"/#home"} className='flex items-center justify-start space-x-2'>
                                     <CiHome className='h-5 w-5' />
                                     <h1>home</h1>  
                                   </Link> 
-                                  <Link href={"#profile"} className='flex items-center justify-start space-x-2'>
+                                  <Link href={"/#profile"} className='flex items-center justify-start space-x-2'>
                                     <CiUser className='h-5 w-5' />
                                     <h1>profile</h1>  
                                   </Link> 
-                                  <Link href={"#projects"} className='flex items-center justify-start space-x-2'>
+                                  <Link href={"/#projects"} className='flex items-center justify-start space-x-2'>
                                     <FaBorderNone className='h-5 w-5' />
                                     <h1>projects</h1>  
                                   </Link> 
-                                  <Link href={"#contact"} className='flex items-center justify-start space-x-2'>
+                                  <Link href={"/#contact"} className='flex items-center justify-start space-x-2'>
                                     <CiPhone className='h-5 w-5' />
                                     <h1>contact</h1>  
                                   </Link> 

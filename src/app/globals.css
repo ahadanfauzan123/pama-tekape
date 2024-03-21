@@ -15,9 +15,7 @@
     }
     body {
       overflow-x: hidden;
-    }
-    body::-webkit-scrollbar {
-      display: none;
+      overflow-y: overlay;
     }
     
     .swiper {
@@ -41,3 +39,18 @@
       height: 100%;
       object-fit: cover;
     }
+  
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: rgba(255, 255, 255, 0);
+    }
+    
+    /* Mengatur warna thumb scrollbar */
+    ::-webkit-scrollbar-thumb {
+      background-color: rgb(28, 28, 28); /* Warna merah untuk thumb scrollbar */
+      border-radius: 10px;
+      cursor: grab;
+    }
+  
