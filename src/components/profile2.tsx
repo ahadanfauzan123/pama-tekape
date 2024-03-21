@@ -234,10 +234,10 @@ lingkungan sekitar.
 
       </motion.div>
       <div className='flex items-center justify-center w-[80vw] mx-auto'>
-        <Link href={"/#contact"} className='w-full lg:w-[300px] py-4 rounded-xl bg-gray-800 hover:text-blue-300 transition-all ease-in duration-200 text-white text-xl font-light flex items-center justify-between px-5'>
+        <a href={"/#contact"} className='w-full lg:w-[300px] py-4 rounded-xl bg-gray-800 hover:text-blue-300 transition-all ease-in duration-200 text-white text-xl font-light flex items-center justify-between px-5'>
           <h1>Hubungi Kami</h1>
           <CiLocationArrow1 className="h-8 w-8 rotate-45" />
-        </Link>
+        </a>
       </div>
 
       </div>
