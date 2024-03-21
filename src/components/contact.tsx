@@ -10,14 +10,14 @@ function Contact() {
       <div id="contact" className='mt-[120px] w-screen mx-auto flex flex-col items-center justify-start space-y-12'>
         {/* title */}
         <div className='sm:w-[100%] lg:w-[60%] mt-[30px]'>
-            <h1 className='sm:text-3xl lg:text-5xl font-bold text-gray-600 text-center'>CONTACT US</h1>
+            <h1 className='text-5xl font-bold text-gray-600 text-center'>CONTACT US</h1>
         </div>
         <div className="w-[80%] mx-auto">
             {/* cards */}
             <div className='flex flex-col items-center justify-start space-y-4 w-full'>
                 {/* segment 1 */}
-                <div className='w-full flex items-center justify-between'>
-                  <Link href={"https://wa.me/6281386899449"} className='lg:w-[48%] h-[80px] lg:h-[100px] bg-white rounded-xl flex items-center px-8 space-x-8 hover:bg-gray-100 transition-all ease-linear duration-300 cursor-pointer'>
+                <div className='w-full flex flex-col lg:flex-row space-y-4 lg:space-y-0 items-center justify-between'>
+                  <Link href={"https://wa.me/6281386899449"} className='w-full lg:w-[48%] h-[80px] lg:h-[100px] bg-white rounded-xl flex items-center px-8 space-x-8 hover:bg-gray-100 transition-all ease-linear duration-300 cursor-pointer'>
                         <h1 className='text-green-400'>
                               <FaWhatsapp className='h-12 w-12' />
                         </h1>
@@ -27,7 +27,7 @@ function Contact() {
 
                         </div>
                   </Link> 
-                  <Link href={"mailto:pamakaroseri@yahoo.com"} className='lg:w-[48%] h-[80px] lg:h-[100px] bg-white rounded-xl flex items-center px-8 space-x-8 hover:bg-gray-100 transition-all ease-linear duration-300 cursor-pointer'>
+                  <Link href={"mailto:pamakaroseri@yahoo.com"} className='w-full lg:w-[48%] h-[80px] lg:h-[100px] bg-white rounded-xl flex items-center px-8 space-x-8 hover:bg-gray-100 transition-all ease-linear duration-300 cursor-pointer'>
                         <h1 className='text-orange-400'>
                               <TbBrandGmail className='h-12 w-12' />
                         </h1>
@@ -39,8 +39,8 @@ function Contact() {
                   </Link> 
                 </div>
                 {/* segment 2 */}
-                <div className='w-full flex items-center justify-between'>
-                  <div className='lg:w-[48%] h-[80px] lg:h-[100px] bg-white rounded-xl flex items-center px-8 space-x-8 hover:bg-gray-100 transition-all ease-linear duration-300 cursor-pointer'>
+                <div className='w-full flex flex-col lg:flex-row space-y-4 lg:space-y-0 items-center justify-between'>
+                  <div className='w-full lg:w-[48%] h-[80px] lg:h-[100px] bg-white rounded-xl flex items-center px-8 space-x-8 hover:bg-gray-100 transition-all ease-linear duration-300 cursor-pointer'>
                         <h1 className='text-gray-400'>
                               <LuPhoneOutgoing className='h-10 w-10' />
                         </h1>
@@ -50,7 +50,7 @@ function Contact() {
 
                         </div>
                   </div> 
-                  <div className='lg:w-[48%] h-[80px] lg:h-[100px] bg-white rounded-xl flex items-center px-8 space-x-8 hover:bg-gray-100 transition-all ease-linear duration-300 cursor-pointer'>
+                  <div className='w-full lg:w-[48%] h-[80px] lg:h-[100px] bg-white rounded-xl flex items-center px-8 space-x-8 hover:bg-gray-100 transition-all ease-linear duration-300 cursor-pointer'>
                         <h1 className='text-red-400'>
                               <FaInstagram className='h-10 w-10' />
                         </h1>

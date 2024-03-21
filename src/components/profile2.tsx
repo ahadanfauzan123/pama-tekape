@@ -57,7 +57,7 @@ function Profile2() {
         whileInView="onscreen"
         viewport={{ once: true, amount: 0.8 }}
         variants={titleVariant2}
-        className="flex-[0.4] z-20 text-justify text-lg">
+        className="flex-[0.4] z-20 text-start text-lg">
             Berpengalaman 
 bertahun-tahun dalam industri karoseri mobil di Indonesia. Dengan dedikasi yang 
 tinggi dan tim profesional yang berpengalaman, kami telah berhasil membangun 
@@ -77,7 +77,7 @@ ini.
         whileInView="onscreen"
         viewport={{ once: true, amount: 0.8 }}
         variants={titleVariant2}
-        className="flex-[0.4] z-20 text-justify text-lg text-white">
+        className="flex-[0.4] z-20 text-start text-lg text-white">
           Berbagai macam layanan 
 berkualitas untuk memenuhi kebutuhan transportasi Anda. Mulai dari pembuatan 
 kendaraan bermotor komersial seperti bus dan truk, hingga modifikasi mobil 
@@ -108,7 +108,7 @@ mewujudkan visi dan misi bisnis Anda.
         whileInView="onscreen"
         viewport={{ once: true, amount: 0.8 }}
         variants={titleVariant2}
-        className="flex items-center justify-center flex-col space-y-6 lg:space-y-0 lg:flex-row lg:justify-center space-x-2 w-full z-20 text-justify text-lg">
+        className="flex items-center justify-center flex-col space-y-6 lg:space-y-0 lg:flex-row lg:justify-center space-x-2 w-full z-20 text-start text-lg">
                       <div className="hover:bg-gray-100 bg-white hover:scale-[0.95] transition-all duration-300 ease-in rounded-lg px-4 py-2 w-full h-[160px] lg:w-[23%] lg:h-[240px] flex items-center justify-center">
                         <div className="relative w-full h-full flex items-center justify-center flex-col space-y-2">
                           <h1 className='z-20 text-xl font-bold absolute top-0 w-full h-full flex items-center justify-center'>

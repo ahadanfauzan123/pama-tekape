@@ -12,7 +12,7 @@ import Banner4 from "../../public/img/banner/banner4.png"
 import Banner5 from "../../public/img/banner/banner5.png"
 function Banner() {
   return (
-    <div id="home" className=' z-20 h-screen w-screen relative flex items-center justify-center'>
+    <div id="home" className=' z-20 h-[48vh] lg:h-screen w-screen relative flex items-center justify-center'>
       <Swiper
       autoplay={{
         delay: 7000,

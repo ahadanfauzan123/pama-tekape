@@ -16,6 +16,9 @@
     body {
       overflow-x: hidden;
     }
+    body::-webkit-scrollbar {
+      display: none;
+    }
     
     .swiper {
       width: 100%;

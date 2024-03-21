@@ -51,7 +51,7 @@ Bantar Gebang Bekasi<br/>
               title="Our email"
               className="transition-colors duration-300 text-gray-300 hover:text-deep-purple-800"
             >
-              Email pamakaroseri@yahoo.com
+              pamakaroseri@yahoo.com
             </a>
           </div>
         </div>

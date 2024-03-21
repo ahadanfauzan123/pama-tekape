@@ -35,9 +35,9 @@ function Navbar() {
     <div className={`${showNavbar===true? "bg-white transition-all ease-in duration-300 shadow-md shadow-gray-300" : "bg-transparent"} z-50 text-gray-600 w-screen h-[90px] fixed top-0 left-0 flex items-center justify-center`}>
       <div className='flex items-center justify-between mx-auto w-[90%]'>
             {/* logo */}
-            <div className='flex items-center justify-start'>
+            <Link href={"#home"} className='flex items-center justify-start'>
                   <Image src={Logo2} alt="logo" width={800} height={200} className="w-[220px] h-auto" />
-            </div>
+            </Link>
             {/* deskripsi */}
             <div className='hidden lg:flex text-md font-semi-bold items-center justify-end space-x-3'>
                 <Link href={"#home"} className='flex items-center justify-start space-x-2'>

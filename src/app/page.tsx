@@ -9,19 +9,19 @@ import Projects from "@/components/projects";
 export default function Home() {
   return (
     <main className=" scroll-smooth bg-gray-200 flex min-h-screen w-screen flex-col items-center justify-between">
-      {/* navbar */}
+      {/* navbar responsive */}
       <Navbar />
-      {/* banner */}
+      {/* banner responsive */}
       <Banner />
-      {/* deskripsi pt */}
+      {/* deskripsi pt responsive */}
       <Profile />
-      {/* profile 2 */}
+      {/* profile 2 responsive */}
       <Profile2 />
-      {/* projects */}
+      {/* projects responsive */}
       <Projects />
-      {/* contact */}
+      {/* contact responsive */}
       <Contact />
-      {/* footer */}
+      {/* footer responsive */}
       <Footer />
     </main>
   );
